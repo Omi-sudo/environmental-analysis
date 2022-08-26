@@ -1,0 +1,692 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "OBJECTID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "STATE_NAME",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ST_ABBREV",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "REGION",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ACSTOTPOP",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "MINORPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_MINORPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_MINORPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "LOWINCPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_LWINCPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_LWINCPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "LESSHSPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_LESHSPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_LESHSPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "LINGISOPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_LNGISPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_LNGISPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "UNDER5PCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_UNDR5PCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_UNDR5PCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "OVER64PCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_OVR64PCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_OVR64PCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "UNEMPPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_UNEMPPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_UNEMPPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "VULEOPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_VULEOPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_VULEOPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PRE1960PCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_LDPNT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_LDPNT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DSLPM",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_DSLPM",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_DSLPM",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CANCER",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_CANCR",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_CANCR",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RESP",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_RESP",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_RESP",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PTRAF",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_PTRAF",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_PTRAF",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PWDIS",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_PWDIS",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_PWDIS",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PNPL",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_PNPL",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_PNPL",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PRMP",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_PRMP",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_PRMP",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PTSDF",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_PTSDF",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_PTSDF",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "OZONE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_OZONE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_OZONE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PM25",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_PM25",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_PM25",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "UST",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_UST",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_UST",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "D_LDPNT_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_LDPNT_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_LDPNT_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "D_DSLPM_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_DSLPM_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_DSLPM_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "D_CANCR_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_CANCR_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_CANCR_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "D_RESP_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_RESP_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_RESP_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "D_PTRAF_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_PTRAF_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_PTRAF_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "D_PWDIS_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_PWDIS_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_PWDIS_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "D_PNPL_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_PNPL_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_PNPL_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "D_PRMP_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_PRMP_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_PRMP_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "D_PTSDF_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_PTSDF_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_PTSDF_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "D_OZONE_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_OZONE_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_OZONE_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "D_PM25_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_PM25_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_PM25_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "D_UST_2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "B_UST_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "P_UST_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_MINORPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_LWINCPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_LESHSPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_LNGISPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_UNDR5PCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_OVR64PCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_UNEMPPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_VULEOPCT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_LDPNT",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_LDPNT_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_DSLPM",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_DSLPM_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_CANCR",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_CANCR_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_RESP",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_RESP_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_PTRAF",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_PTRAF_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_PWDIS",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_PWDIS_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_PNPL",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_PNPL_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_PRMP",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_PRMP_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_PTSDF",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_PTSDF_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_OZONE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_OZONE_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_PM25",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_PM25_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_UST",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "T_UST_D2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Shape_Length",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Shape_Area",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

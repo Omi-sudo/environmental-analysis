@@ -1,0 +1,182 @@
+[
+  {
+    "description": "The code of the core based statistical area (metropolitan area) where the monitoring site is located",
+    "mode": "NULLABLE",
+    "name": "cbsa_code",
+    "type": "STRING"
+  },
+  {
+    "description": "state name",
+    "mode": "NULLABLE",
+    "name": "state",
+    "type": "STRING"
+  },
+  {
+    "description": "The FIPS code of the state in which the monitor resides",
+    "mode": "NULLABLE",
+    "name": "state_code",
+    "type": "STRING"
+  },
+  {
+    "description": "The name of the county where the monitoring site is located",
+    "mode": "NULLABLE",
+    "name": "county",
+    "type": "STRING"
+  },
+  {
+    "description": "The FIPS County Code where the monitor resides",
+    "mode": "NULLABLE",
+    "name": "county_code",
+    "type": "STRING"
+  },
+  {
+    "description": "The 4-digit number used to uniquely identify the air monitoring site within a state-county combination or tribal area",
+    "mode": "NULLABLE",
+    "name": "site_number",
+    "type": "STRING"
+  },
+  {
+    "description": "A qualifier is any note about the data from the AQS qualifiers list that applies to the reported measurement",
+    "mode": "NULLABLE",
+    "name": "qualifier",
+    "type": "STRING"
+  },
+  {
+    "description": "The total measurement uncertainty associated with a reported measurement as indicated by the reporting agency",
+    "mode": "NULLABLE",
+    "name": "uncertainty",
+    "type": "STRING"
+  },
+  {
+    "description": "The method detectable limit (MDL) defined for the sample by the QA agency, which supersedes the EPA-defined method detectable limit for the designated methodology",
+    "mode": "NULLABLE",
+    "name": "detection_limit",
+    "type": "FLOAT"
+  },
+  {
+    "description": "The unit of measure for all statistics on the same row. Every parameter has a standard unit of measure",
+    "mode": "NULLABLE",
+    "name": "units_of_measure",
+    "type": "STRING"
+  },
+  {
+    "description": "The length of time that air passes through the monitoring device before it is analyzed (measured)",
+    "mode": "NULLABLE",
+    "name": "sample_duration",
+    "type": "STRING"
+  },
+  {
+    "description": "The measured value in the standard units of measure for the parameter",
+    "mode": "NULLABLE",
+    "name": "sample_measurement",
+    "type": "FLOAT"
+  },
+  {
+    "description": "The Datum associated with the Latitude and Longitude measures",
+    "mode": "NULLABLE",
+    "name": "datum",
+    "type": "STRING"
+  },
+  {
+    "description": "The angular distance north or south of the equator measured in decimal degrees. North is positive",
+    "mode": "NULLABLE",
+    "name": "latitude",
+    "type": "FLOAT"
+  },
+  {
+    "description": "The angular distance east or west of the prime meridian measured in decimal degrees. East is positive, West is negative",
+    "mode": "NULLABLE",
+    "name": "longitude",
+    "type": "FLOAT"
+  },
+  {
+    "description": "The frequency at which sample observations are made. Specified as the amount of time that elapses between the beginning of subsequent observations",
+    "mode": "NULLABLE",
+    "name": "sample_frequency",
+    "type": "STRING"
+  },
+  {
+    "description": "A code representing the units of measure",
+    "mode": "NULLABLE",
+    "name": "units_of_measure_code",
+    "type": "STRING"
+  },
+  {
+    "description": "This is the Parameter Occurrence Code used to distinguish different instruments that measure the same parameter at the same site",
+    "mode": "NULLABLE",
+    "name": "poc",
+    "type": "INTEGER"
+  },
+  {
+    "description": "The AQS code corresponding to the parameter measured by the monitor",
+    "mode": "NULLABLE",
+    "name": "parameter_code",
+    "type": "STRING"
+  },
+  {
+    "description": "A code representing the Sample Duration. The code does not necessarily correspond to a real world value (e.g., 5 is not for a 5 hour sample duration)",
+    "mode": "NULLABLE",
+    "name": "sample_duration_code",
+    "type": "STRING"
+  },
+  {
+    "description": "The name or description assigned in AQS to the parameter measured by the monitor. Parameters may be pollutants or non-pollutants",
+    "mode": "NULLABLE",
+    "name": "parameter",
+    "type": "STRING"
+  },
+  {
+    "description": "A short description of the processes, equipment, and protocols used in gathering and measuring the sample. This field is a concatenation of the method of collection and the method of analysis",
+    "mode": "NULLABLE",
+    "name": "method",
+    "type": "STRING"
+  },
+  {
+    "description": "A three digit code representing the measurement method. A method code is only unique within a parameter (that is, method 111 for ozone is not the same as method 111 for benzene)",
+    "mode": "NULLABLE",
+    "name": "method_code",
+    "type": "STRING"
+  },
+  {
+    "description": "An indication of whether the method used to collect the data is a federal reference method (FRM), equivalent to a federal reference method, an approved regional method, or none of the above (non-federal reference method)",
+    "mode": "NULLABLE",
+    "name": "method_type",
+    "type": "STRING"
+  },
+  {
+    "description": "The date the sample was taken in Local Standard Time",
+    "mode": "NULLABLE",
+    "name": "date_local",
+    "type": "STRING"
+  },
+  {
+    "description": "local time when sample was taken",
+    "mode": "NULLABLE",
+    "name": "time_local",
+    "type": "STRING"
+  },
+  {
+    "description": "GMT date when sample was taken",
+    "mode": "NULLABLE",
+    "name": "date_gmt",
+    "type": "STRING"
+  },
+  {
+    "description": "The number of hours between Greenwich Mean Time and Local Standard Time at the monitor",
+    "mode": "NULLABLE",
+    "name": "time_gmt",
+    "type": "STRING"
+  },
+  {
+    "description": "indicates when the record was last updated is the source database",
+    "mode": "NULLABLE",
+    "name": "date_of_last_change",
+    "type": "STRING"
+  },
+  {
+    "description": "The timestamp on which the record is ingested in table",
+    "mode": "REQUIRED",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

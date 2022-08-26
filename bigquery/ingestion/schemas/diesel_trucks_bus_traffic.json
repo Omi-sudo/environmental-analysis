@@ -1,0 +1,22 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "geoid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "trucks_per_day",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

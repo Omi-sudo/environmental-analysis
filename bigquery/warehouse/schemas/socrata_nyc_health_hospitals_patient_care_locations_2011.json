@@ -1,0 +1,151 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "facility_type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "borough",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "facility_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "phone",
+    "type": "STRING"
+  },
+  {
+    "fields": [
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "address",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "city",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "state",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "zip",
+            "type": "STRING"
+          }
+        ],
+        "mode": "NULLABLE",
+        "name": "human_address",
+        "type": "RECORD"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "latitude",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "longitude",
+        "type": "STRING"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "geo_metadata",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "computed_region_efsh_h5xi",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "computed_region_f5dn_yrer",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "computed_region_yeji_bk3q",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "computed_region_92fq_4b7q",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "computed_region_sbqj_enih",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "cross_streets",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "postcode",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "latitude",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "longitude",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "community_board",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "council_district",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "census_tract",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bin",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bbl",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nta",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

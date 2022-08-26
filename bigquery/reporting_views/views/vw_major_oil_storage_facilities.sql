@@ -1,0 +1,11 @@
+SELECT
+  object_id,
+  site_name,
+  site_type,
+  site_number,
+  detail_url,
+  shape,
+  record_date,
+  ingestion_timestamp
+FROM
+  `ingestion.major_oil_storage_facilities`

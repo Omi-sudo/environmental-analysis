@@ -1,0 +1,10 @@
+SELECT
+  census_tract,
+  state,
+  traffic_proximity,
+  percentile_for_traffic_proximity,
+  ej_index_for_traffic_proximity,
+  record_date,
+  ingestion_timestamp
+FROM
+  `ingestion.vehicle_traffic_density_2019_all_ny`

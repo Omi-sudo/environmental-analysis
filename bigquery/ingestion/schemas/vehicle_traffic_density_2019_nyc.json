@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "state_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ptraf",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "p_ptraf",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "d_ptraf_2",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "county",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

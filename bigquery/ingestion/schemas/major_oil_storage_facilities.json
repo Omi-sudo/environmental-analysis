@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "object_id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "site_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "site_type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "site_number",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "detail_url",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "shape",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

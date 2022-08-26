@@ -1,0 +1,19 @@
+steps:
+- id: 'tf init'
+  name: 'hashicorp/terraform'
+  dir: 'terraform/environments/${_ENV_LOC}'
+  args: [ 'init',
+          "-backend-config=bucket=${_TFSTATE_BUCKET}",
+          "-backend-config=prefix=env/warehouse" ]
+
+- id: 'tf plan'
+  name: 'hashicorp/terraform'
+  dir: 'terraform/environments/${_ENV_LOC}'
+  args: ['plan']
+
+- id: 'tf apply'
+  name: 'hashicorp/terraform'
+  dir: 'terraform/environments/${_ENV_LOC}'
+  args: ['apply',
+         '-var=project_id=${_PROJECT_ID}',
+         '-auto-approve']

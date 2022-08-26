@@ -1,0 +1,182 @@
+[
+  {
+    "name": "state",
+    "type": "STRING"
+  },
+  {
+    "name": "county",
+    "type": "STRING"
+  },
+  {
+    "name": "fips",
+    "type": "STRING"
+  },
+  {
+    "name": "tract",
+    "type": "STRING"
+  },
+  {
+    "name": "population",
+    "type": "INTEGER"
+  },
+  {
+    "name": "pollutant_name",
+    "type": "STRING"
+  },
+  {
+    "name": "units",
+    "type": "STRING"
+  },
+  {
+    "name": "total_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "pt_stationarypoint_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "or_lightduty_offnetwork_gas_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "or_lightduty_offnetwork_diesel_c",
+    "type": "FLOAT"
+  },
+  {
+    "name": "or_heavyduty_offnetwork_gas_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "or_heavyduty_offnetwork_diesel_c",
+    "type": "FLOAT"
+  },
+  {
+    "name": "or_lightduty_onnetwork_gas_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "or_lightduty_onnetwork_diesel_co",
+    "type": "FLOAT"
+  },
+  {
+    "name": "or_heavyduty_onnetwork_gas_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "or_heavyduty_onnetwork_diesel_co",
+    "type": "FLOAT"
+  },
+  {
+    "name": "or_refueling_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "or_heavyduty_hoteling_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_recreational_inc_pleasurecraf",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_construction_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_commerciallawngarden_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_residentiallawngarden_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_agriculture_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_commercialequipment_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_allother_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_cmv_c1c2_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_cmv_c3_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_cmv_c1c2c3_underway_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_locomotives_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_point_airports_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nr_point_railyards_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "np_industrial_conc",
+    "type": "INTEGER"
+  },
+  {
+    "name": "np_commercialcooking_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "np_oilgas_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "np_solventscoatings_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "np_storagetransfer_bulkterminals",
+    "type": "FLOAT"
+  },
+  {
+    "name": "np_miscellaneousnonindustrial_co",
+    "type": "FLOAT"
+  },
+  {
+    "name": "np_fuelcombustion_not_rwc_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "np_residentialwoodcombustionrwc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "np_wastedisposal_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "np_agriculturelivestock_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "fire_conc",
+    "type": "FLOAT"
+  },
+  {
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

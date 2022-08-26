@@ -1,0 +1,67 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "facility_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "decid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "oris_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ptid",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "unit_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "source_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nameplate_mw",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "gb_year",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "primary_fuel",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "secondary_fuel",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "generation_gwh_2019",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

@@ -1,0 +1,36 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - '-t'
+      - '${_LOCATION}-docker.pkg.dev/${_PROJECT_ID}/${_REPOSITORY}/${_IMAGE}'
+      - '-f'
+      - cloud_run/aqs/Dockerfile
+      - .
+
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - '${_LOCATION}-docker.pkg.dev/${_PROJECT_ID}/${_REPOSITORY}/${_IMAGE}'
+
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - '${_CLOUD_RUN_SERVICE_NAME}'
+      - '--service-account'
+      - '${_COMPOSER_SERVICE_ACCOUNT}'
+      - '--project'
+      - '${_PROJECT_ID}'
+      - '--image'
+      - '${_LOCATION}-docker.pkg.dev/${_PROJECT_ID}/${_REPOSITORY}/${_IMAGE}'
+      - '--region'
+      - '${_LOCATION}'
+      - '--memory'
+      - '8Gi'
+      - '--timeout'
+      - '3600'
+      - '--cpu'
+      - '2'
+      - '--no-allow-unauthenticated'

@@ -1,0 +1,272 @@
+[
+  {
+    "description": "Address Line 1 of facility.",
+    "mode": "NULLABLE",
+    "name": "address1",
+    "type": "STRING"
+  },
+  {
+    "description": "City of facility.",
+    "mode": "NULLABLE",
+    "name": "city",
+    "type": "STRING"
+  },
+  {
+    "description": "Gazetteer Code for County facility is located in.",
+    "mode": "NULLABLE",
+    "name": "cnty_cd",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "computed_region_43an_4dx5",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "computed_region_5edz_4hdv",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "computed_region_9yqb_tdyd",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "computed_region_assa_msit",
+    "type": "STRING"
+  },
+  {
+    "description": "State of current cooperator (if applicable).",
+    "mode": "NULLABLE",
+    "name": "cooperator_state",
+    "type": "STRING"
+  },
+  {
+    "description": "County where facility is located.",
+    "mode": "NULLABLE",
+    "name": "county",
+    "type": "STRING"
+  },
+  {
+    "description": "Type of facility.",
+    "mode": "NULLABLE",
+    "name": "description",
+    "type": "STRING"
+  },
+  {
+    "description": "Abbreviated name for type of facility.",
+    "mode": "NULLABLE",
+    "name": "fac_desc_short",
+    "type": "STRING"
+  },
+  {
+    "description": "Site specific facility identification number.",
+    "mode": "NULLABLE",
+    "name": "fac_id",
+    "type": "STRING"
+  },
+  {
+    "description": "Date facility opened.",
+    "mode": "NULLABLE",
+    "name": "fac_opn_dat",
+    "type": "STRING"
+  },
+  {
+    "description": "Phone Number of facility.",
+    "mode": "NULLABLE",
+    "name": "fac_phone",
+    "type": "STRING"
+  },
+  {
+    "description": "Zip Code of facility.",
+    "mode": "NULLABLE",
+    "name": "fac_zip",
+    "type": "STRING"
+  },
+  {
+    "description": "geo_metadata",
+    "fields": [
+      {
+        "description": "System for representing healthcare facilities on map. Geo-coded to mailing address.",
+        "mode": "NULLABLE",
+        "name": "latitude",
+        "type": "FLOAT"
+      },
+      {
+        "description": "System for representing healthcare facilities on map. Geo-coded to mailing address.",
+        "mode": "NULLABLE",
+        "name": "longitude",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "needs_recoding",
+        "type": "BOOLEAN"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "geo_metadata",
+    "type": "RECORD"
+  },
+  {
+    "description": "Current facility name.",
+    "mode": "NULLABLE",
+    "name": "facility_name",
+    "type": "STRING"
+  },
+  {
+    "description": "System for representing healthcare facilities on map. Geo-coded to mailing address.",
+    "mode": "NULLABLE",
+    "name": "latitude",
+    "type": "FLOAT"
+  },
+  {
+    "description": "System for representing healthcare facilities on map. Geo-coded to mailing address.",
+    "mode": "NULLABLE",
+    "name": "longitude",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "geometry",
+    "type": "GEOGRAPHY"
+  },
+  {
+    "description": "Operating Certificate number for facility.",
+    "mode": "NULLABLE",
+    "name": "opcert_num",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "operator_address1",
+    "type": "STRING"
+  },
+  {
+    "description": "City of current operator.",
+    "mode": "NULLABLE",
+    "name": "operator_city",
+    "type": "STRING"
+  },
+  {
+    "description": "Name of the current operator of facility.",
+    "mode": "NULLABLE",
+    "name": "operator_name",
+    "type": "STRING"
+  },
+  {
+    "description": "State of current operator.",
+    "mode": "NULLABLE",
+    "name": "operator_state",
+    "type": "STRING"
+  },
+  {
+    "description": "Zip Code of current operator.",
+    "mode": "NULLABLE",
+    "name": "operator_zip",
+    "type": "STRING"
+  },
+  {
+    "description": "Name of NYSDOH Regional Office for facility.",
+    "mode": "NULLABLE",
+    "name": "region_office",
+    "type": "STRING"
+  },
+  {
+    "description": "Identification number of NYSDOH Regional Office.",
+    "mode": "NULLABLE",
+    "name": "ro_id",
+    "type": "STRING"
+  },
+  {
+    "description": "State of facility (always New York State).",
+    "mode": "NULLABLE",
+    "name": "state",
+    "type": "STRING"
+  },
+  {
+    "description": "Fax Number of facility.",
+    "mode": "NULLABLE",
+    "name": "fac_fax",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "computed_region_8ire_itmf",
+    "type": "STRING"
+  },
+  {
+    "description": "Address Line 2 of the current operator (if applicable).",
+    "mode": "NULLABLE",
+    "name": "operator_address2",
+    "type": "STRING"
+  },
+  {
+    "description": "Facility identification number of main site, if facility is an extension clinic.",
+    "mode": "NULLABLE",
+    "name": "main_site_facid",
+    "type": "STRING"
+  },
+  {
+    "description": "Name of facility's main site, if facility is an extension clinic.",
+    "mode": "NULLABLE",
+    "name": "main_site_name",
+    "type": "STRING"
+  },
+  {
+    "description": "Website of Facility.",
+    "mode": "NULLABLE",
+    "name": "web_site",
+    "type": "STRING"
+  },
+  {
+    "description": "Address Line 2 of facility (if applicable).",
+    "mode": "NULLABLE",
+    "name": "address2",
+    "type": "STRING"
+  },
+  {
+    "description": "Address Line 1 of current cooperator (if applicable).",
+    "mode": "NULLABLE",
+    "name": "cooperator_address1",
+    "type": "STRING"
+  },
+  {
+    "description": "City of current cooperator (if applicable).",
+    "mode": "NULLABLE",
+    "name": "cooperator_city",
+    "type": "STRING"
+  },
+  {
+    "description": "Name of current cooperator (if applicable).",
+    "mode": "NULLABLE",
+    "name": "cooperator_name",
+    "type": "STRING"
+  },
+  {
+    "description": "Zip Code of current cooperator (if applicable).",
+    "mode": "NULLABLE",
+    "name": "cooperator_zip",
+    "type": "STRING"
+  },
+  {
+    "description": "Address Line 2 of current cooperator (if applicable).",
+    "mode": "NULLABLE",
+    "name": "cooperator_address2",
+    "type": "STRING"
+  },
+  {
+    "description": "time when record was added",
+    "mode": "NULLABLE",
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "description": "time when record was ingested",
+    "mode": "NULLABLE",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

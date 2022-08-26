@@ -1,0 +1,162 @@
+[
+  {
+    "description": "Twelve-character code based on the three-digit ISO country codes and the nine-digit monitor location code.",
+    "mode": "REQUIRED",
+    "name": "site",
+    "type": "STRING"
+  },
+  {
+    "description": "Status of the data.",
+    "mode": "REQUIRED",
+    "name": "data_status",
+    "type": "INTEGER"
+  },
+  {
+    "description": "Action code for data ingest.",
+    "mode": "NULLABLE",
+    "name": "action_code",
+    "type": "INTEGER"
+  },
+  {
+    "description": "Date and time of the data value.",
+    "mode": "REQUIRED",
+    "name": "datetime",
+    "type": "STRING"
+  },
+  {
+    "description": "Five-digit number used to identify the parameters being monitored.",
+    "mode": "REQUIRED",
+    "name": "parameter",
+    "type": "INTEGER"
+  },
+  {
+    "description": "Measurement period in minutes.",
+    "mode": "REQUIRED",
+    "name": "duration",
+    "type": "INTEGER"
+  },
+  {
+    "description": "How often the measurement is repeated (minutes).",
+    "mode": "NULLABLE",
+    "name": "frequency",
+    "type": "INTEGER"
+  },
+  {
+    "description": "Data value of the specified parameter.",
+    "mode": "REQUIRED",
+    "name": "value",
+    "type": "NUMERIC"
+  },
+  {
+    "description": "Three-digit code used to describe the units in the measurement of the specified parameter.",
+    "mode": "REQUIRED",
+    "name": "unit",
+    "type": "INTEGER"
+  },
+  {
+    "description": "An integer code used to link to the quality control codes that describe the validity, invalidity, or questionable status of the measurement.",
+    "mode": "REQUIRED",
+    "name": "qc",
+    "type": "INTEGER"
+  },
+  {
+    "description": "Parameter occurrence code (POC)",
+    "mode": "REQUIRED",
+    "name": "poc",
+    "type": "INTEGER"
+  },
+  {
+    "description": "Latitude in decimal degrees of the monitor.",
+    "mode": "NULLABLE",
+    "name": "latitude",
+    "type": "FLOAT"
+  },
+  {
+    "description": "Longitude in decimal degrees of the monitor.",
+    "mode": "NULLABLE",
+    "name": "longitude",
+    "type": "FLOAT"
+  },
+  {
+    "description": "Transformed column. Representing the point on earth.",
+    "mode": "NULLABLE",
+    "name": "geometry",
+    "type": "GEOGRAPHY"
+  },
+  {
+    "description": "The datum associated with the latitude and longitude measurements used to plot the data in geographic information systems (GIS).",
+    "mode": "NULLABLE",
+    "name": "gisdatum",
+    "type": "STRING"
+  },
+  {
+    "description": "Elevation of the monitor in meters above mean sea level (MSL).",
+    "mode": "NULLABLE",
+    "name": "elev",
+    "type": "INTEGER"
+  },
+  {
+    "description": "Three-digit numerical code that identifies the method used to perform the measurement.",
+    "mode": "NULLABLE",
+    "name": "method_code",
+    "type": "STRING"
+  },
+  {
+    "description": "Measurement Performance Characteristic (MPC) is a performance measurement for the measurement taken.",
+    "mode": "NULLABLE",
+    "name": "mpc",
+    "type": "INTEGER"
+  },
+  {
+    "description": "Value of the MPC needs to be in the same units as the specified parameter being measured.",
+    "mode": "NULLABLE",
+    "name": "mpc_value",
+    "type": "NUMERIC"
+  },
+  {
+    "description": "Uncertainty needs to be in the same units as the specified parameter and is given using the 95% confidence level.",
+    "mode": "NULLABLE",
+    "name": "uncertainty",
+    "type": "NUMERIC"
+  },
+  {
+    "description": "The text field in which each qualifier is separated by a space.",
+    "mode": "NULLABLE",
+    "name": "qualifiers",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_local",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_gmt",
+    "type": "STRING"
+  },
+  {
+    "description": "Name of the file from FTP server.",
+    "mode": "NULLABLE",
+    "name": "file_name",
+    "type": "STRING"
+  },
+  {
+    "description": "Date where data ingested to BigQuery.",
+    "mode": "NULLABLE",
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "description": "Timestamp when the pipeline started.",
+    "mode": "NULLABLE",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]
+

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "census_tract",
+    "type": "STRING"
+  },
+  {
+    "name": "state",
+    "type": "STRING"
+  },
+  {
+    "name": "rmp_facility_proximity",
+    "type": "FLOAT"
+  },
+  {
+    "name": "percentile_for_rmp_facility_proximity",
+    "type": "INTEGER"
+  },
+  {
+    "name": "ej_index_for_rmp_facility_proximity",
+    "type": "FLOAT"
+  },
+  {
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

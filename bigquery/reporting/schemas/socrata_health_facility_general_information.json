@@ -1,0 +1,234 @@
+[
+  {
+    "description": "Address Line 1 of facility.",
+    "name": "address1",
+    "type": "STRING"
+  },
+  {
+    "description": "City of facility.",
+    "name": "city",
+    "type": "STRING"
+  },
+  {
+    "description": "Gazetteer Code for County facility is located in.",
+    "name": "cnty_cd",
+    "type": "STRING"
+  },
+  {
+    "name": "computed_region_43an_4dx5",
+    "type": "STRING"
+  },
+  {
+    "name": "computed_region_5edz_4hdv",
+    "type": "STRING"
+  },
+  {
+    "name": "computed_region_9yqb_tdyd",
+    "type": "STRING"
+  },
+  {
+    "name": "computed_region_assa_msit",
+    "type": "STRING"
+  },
+  {
+    "description": "State of current cooperator (if applicable).",
+    "name": "cooperator_state",
+    "type": "STRING"
+  },
+  {
+    "description": "County where facility is located.",
+    "name": "county",
+    "type": "STRING"
+  },
+  {
+    "description": "Type of facility.",
+    "name": "description",
+    "type": "STRING"
+  },
+  {
+    "description": "Abbreviated name for type of facility.",
+    "name": "fac_desc_short",
+    "type": "STRING"
+  },
+  {
+    "description": "Site specific facility identification number.",
+    "name": "fac_id",
+    "type": "STRING"
+  },
+  {
+    "description": "Date facility opened.",
+    "name": "fac_opn_dat",
+    "type": "STRING"
+  },
+  {
+    "description": "Phone Number of facility.",
+    "name": "fac_phone",
+    "type": "STRING"
+  },
+  {
+    "description": "Zip Code of facility.",
+    "name": "fac_zip",
+    "type": "STRING"
+  },
+  {
+    "description": "geo_metadata",
+    "fields": [
+      {
+        "description": "System for representing healthcare facilities on map. Geo-coded to mailing address.",
+        "name": "latitude",
+        "type": "FLOAT"
+      },
+      {
+        "description": "System for representing healthcare facilities on map. Geo-coded to mailing address.",
+        "name": "longitude",
+        "type": "FLOAT"
+      }
+    ],
+    "name": "geo_metadata",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "facility_geo_point",
+    "type": "GEOGRAPHY"
+  },
+  {
+    "description": "Current facility name.",
+    "name": "facility_name",
+    "type": "STRING"
+  },
+  {
+    "description": "System for representing healthcare facilities on map. Geo-coded to mailing address.",
+    "name": "latitude",
+    "type": "FLOAT"
+  },
+  {
+    "description": "System for representing healthcare facilities on map. Geo-coded to mailing address.",
+    "name": "longitude",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "geometry",
+    "type": "GEOGRAPHY"
+  },
+  {
+    "description": "Operating Certificate number for facility.",
+    "name": "opcert_num",
+    "type": "STRING"
+  },
+  {
+    "description": "Address Line 1 of the current operator.",
+    "name": "operator_address1",
+    "type": "STRING"
+  },
+  {
+    "description": "City of current operator.",
+    "name": "operator_city",
+    "type": "STRING"
+  },
+  {
+    "description": "Name of the current operator of facility.",
+    "name": "operator_name",
+    "type": "STRING"
+  },
+  {
+    "description": "State of current operator.",
+    "name": "operator_state",
+    "type": "STRING"
+  },
+  {
+    "description": "Zip Code of current operator.",
+    "name": "operator_zip",
+    "type": "STRING"
+  },
+  {
+    "description": "Type of Legal Ownership.",
+    "name": "ownership_type",
+    "type": "STRING"
+  },
+  {
+    "description": "Name of NYSDOH Regional Office for facility.",
+    "name": "region_office",
+    "type": "STRING"
+  },
+  {
+    "description": "Identification number of NYSDOH Regional Office.",
+    "name": "ro_id",
+    "type": "STRING"
+  },
+  {
+    "description": "State of facility (always New York State).",
+    "name": "state",
+    "type": "STRING"
+  },
+  {
+    "description": "Fax Number of facility.",
+    "name": "fac_fax",
+    "type": "STRING"
+  },
+  {
+    "name": "computed_region_8ire_itmf",
+    "type": "STRING"
+  },
+  {
+    "description": "Address Line 2 of the current operator (if applicable).",
+    "name": "operator_address2",
+    "type": "STRING"
+  },
+  {
+    "description": "Facility identification number of main site, if facility is an extension clinic.",
+    "name": "main_site_facid",
+    "type": "STRING"
+  },
+  {
+    "description": "Name of facility's main site, if facility is an extension clinic.",
+    "name": "main_site_name",
+    "type": "STRING"
+  },
+  {
+    "description": "Website of Facility.",
+    "name": "web_site",
+    "type": "STRING"
+  },
+  {
+    "description": "Address Line 2 of facility (if applicable).",
+    "name": "address2",
+    "type": "STRING"
+  },
+  {
+    "description": "Address Line 1 of current cooperator (if applicable).",
+    "name": "cooperator_address1",
+    "type": "STRING"
+  },
+  {
+    "description": "City of current cooperator (if applicable).",
+    "name": "cooperator_city",
+    "type": "STRING"
+  },
+  {
+    "description": "Name of current cooperator (if applicable).",
+    "name": "cooperator_name",
+    "type": "STRING"
+  },
+  {
+    "description": "Zip Code of current cooperator (if applicable).",
+    "name": "cooperator_zip",
+    "type": "STRING"
+  },
+  {
+    "description": "Address Line 2 of current cooperator (if applicable).",
+    "name": "cooperator_address2",
+    "type": "STRING"
+  },
+  {
+    "description": "time when record was added",
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "description": "time when record was ingested",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

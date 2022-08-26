@@ -1,0 +1,32 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "data_source",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "layer_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "new_columns",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "layer_url",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "batch_timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

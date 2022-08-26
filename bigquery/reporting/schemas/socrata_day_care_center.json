@@ -1,0 +1,75 @@
+[
+  {
+    "name": "bbl",
+    "type": "STRING"
+  },
+  {
+    "name": "bin",
+    "type": "STRING"
+  },
+  {
+    "name": "city",
+    "type": "STRING"
+  },
+  {
+    "name": "housenum",
+    "type": "STRING"
+  },
+  {
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "name": "streetname",
+    "type": "STRING"
+  },
+  {
+    "fields": [
+      {
+        "fields": [
+          {
+            "mode": "REPEATED",
+            "name": "x",
+            "type": "FLOAT"
+          },
+          {
+            "mode": "REPEATED",
+            "name": "y",
+            "type": "FLOAT"
+          }
+        ],
+        "name": "coordinates",
+        "type": "RECORD"
+      },
+      {
+        "name": "type",
+        "type": "STRING"
+      }
+    ],
+    "name": "geo_metadata",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "geometry",
+    "type": "GEOGRAPHY"
+  },
+  {
+    "name": "url",
+    "type": "STRING"
+  },
+  {
+    "name": "zip",
+    "type": "STRING"
+  },
+  {
+    "description": "time when record was added",
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "description": "time when record was ingested",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

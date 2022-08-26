@@ -1,0 +1,62 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "shape__length",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "shape__area",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "gisflag",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "program",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "geo_metadata",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sitecode",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "objectid",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "siteclass",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sitename",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "detail_url",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

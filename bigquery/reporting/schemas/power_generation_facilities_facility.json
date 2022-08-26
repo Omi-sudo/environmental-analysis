@@ -1,0 +1,95 @@
+[
+  {
+    "name": "facility_name",
+    "type": "STRING"
+  },
+  {
+    "name": "decid",
+    "type": "STRING"
+  },
+  {
+    "name": "oris_id",
+    "type": "STRING"
+  },
+  {
+    "name": "address",
+    "type": "STRING"
+  },
+  {
+    "name": "city",
+    "type": "STRING"
+  },
+  {
+    "name": "state",
+    "type": "STRING"
+  },
+  {
+    "name": "zip",
+    "type": "STRING"
+  },
+  {
+    "name": "latitude",
+    "type": "FLOAT"
+  },
+  {
+    "name": "longitude",
+    "type": "FLOAT"
+  },
+  {
+    "name": "geometry",
+    "type": "GEOGRAPHY",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "nytme_coordinate",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nytmn_coordinate",
+    "type": "FLOAT"
+  },
+  {
+    "name": "voc_tons",
+    "type": "FLOAT"
+  },
+  {
+    "name": "nox_tons",
+    "type": "FLOAT"
+  },
+  {
+    "name": "co_tons",
+    "type": "FLOAT"
+  },
+  {
+    "name": "co2_tons",
+    "type": "FLOAT"
+  },
+  {
+    "name": "particulates_tons",
+    "type": "FLOAT"
+  },
+  {
+    "name": "pm10_tons",
+    "type": "FLOAT"
+  },
+  {
+    "name": "pm2_5_tons",
+    "type": "FLOAT"
+  },
+  {
+    "name": "haps_tons",
+    "type": "FLOAT"
+  },
+  {
+    "name": "so2_tons",
+    "type": "FLOAT"
+  },
+  {
+    "name": "record_date",
+    "type": "DATE"
+  },
+  {
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

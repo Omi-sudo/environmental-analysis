@@ -1,0 +1,57 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "data_source",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "data_source_last_edit_date",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "layer_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "source_query_url",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "step_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "status",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "message",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "batch_timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "ingestion_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

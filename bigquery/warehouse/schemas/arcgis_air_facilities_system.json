@@ -1,0 +1,72 @@
+[
+      {
+        "mode": "NULLABLE",
+        "name": "objectid",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "site_id",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "dec_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "facility",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "permit_type",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "cas_number",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "contaminant",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "amount_lbs_per_year",
+        "type": "float"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "nytmn_coordinate",
+        "type": "float"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "nytme_coordinate",	
+        "type": "float"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "longitude",
+        "type": "float"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "latitude",
+        "type": "float"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "record_date",
+        "type": "DATE"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ingestion_timestamp",
+        "type": "TIMESTAMP"
+      }
+]

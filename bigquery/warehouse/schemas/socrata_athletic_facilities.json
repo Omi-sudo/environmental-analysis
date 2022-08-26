@@ -1,0 +1,284 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "accessible",
+    "description": "Indicates if the facility is accessible.",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "adult_baseball",
+    "description": "A permit to play adult baseball can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "adult_football",
+    "description": "A permit to play adult football can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "adult_softball",
+    "description": "A permit to play adult softball can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "basketball",
+    "description": "A permit to play basketball can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "bocce",
+    "description": "A permit to play bocce ball can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "borough",
+    "description": "Borough the facility falls within",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "communityboard",
+    "description": "Community Board the facility falls within",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "councildistrict",
+    "description": "City Council District the facility falls within",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "cricket",
+    "description": "A permit to play cricket can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "department",
+    "description": "The Parks maintenance district this facility falls within",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "dimensions",
+    "description": "General description of this facility's dimensions",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "featurestatus",
+    "description": "Flags whether a record is Active, Retired, or Temporarily Closed.",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "field_lighted",
+    "description": "Indicates the presence or absence of lights at this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "field_number",
+    "description": "Unique identifier for each field of a given type in a given property",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "flagfootball",
+    "description": "A permit to play Flag Football can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "frisbee",
+    "description": "A permit to play Frisbee can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "gispropnum",
+    "description": "Unique identifier for Park Property.",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "handball",
+    "description": "A permit to play handball can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "hockey",
+    "description": "A permit to play hockey can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "kickball",
+    "description": "A permit to play kickball can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lacrosse",
+    "description": "A permit to play lacrosse can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ll_baseb_12andunder",
+    "description": "A permit to play little league baseball for ages 12 and under can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ll_baseb_13andolder",
+    "description": "A permit to play little league baseball for ages 13 and over can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ll_softball",
+    "description": "A permit to play little league softball can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "maintenanceagreement",
+    "description": "Indicates that Parks has an agreement with another entity regarding maintenance of this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "netball",
+    "description": "A permit to play netball can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nonregulation_soccer",
+    "description": "A permit to play nonregulation soccer can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "precinct",
+    "description": "Police precint this facility falls within",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "primary_sport",
+    "description": "The primary usage of this facility",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "regulation_soccer",
+    "description": "A permit to play nonregulation soccer can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "rugby",
+    "description": "A permit to play rugby can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "starea",
+    "description": "Area of this shape, in square feet",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "stlength",
+    "description": "Perimeter of this shape, in square feet",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "surface_type",
+    "description": "Indicates surface material of facility",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "system",
+    "description": "Unique identifier for the athletic facility in this dataset",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "tennis",
+    "description": "A permit to play Tennis can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "track_and_field",
+    "description": "A permit for Track and Field activities can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "t_ball",
+    "description": "A permit to play Tee-ball can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "volleyball",
+    "description": "A permit to play Volleyball can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "wheelchairfootball",
+    "description": "A permit to play Wheelchair Football can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "youth_football",
+    "description": "A permit to play Youth Football can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "zipcode",
+    "description": "Zipcode for this facility",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "geo_metadata",
+    "description": "Geometry type of dataset.",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "pickleball",
+    "description": "A permit to play Pickleball can be acquired for this facility",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "record_date",
+    "description": "time when record was added",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ingestion_timestamp",
+    "description": "time when record was ingested",
+    "type": "TIMESTAMP"
+  }
+]
