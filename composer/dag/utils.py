@@ -20,9 +20,7 @@ import constants
 import storage_util
 import bq_utils
 import job_audit_utils
-from last_edit_date_utils import \
-  fetch_arcgis_api_last_edit_date, \
-  fetch_socrata_api_last_edit_date
+
 
 logging.basicConfig(level=logging.INFO)
 

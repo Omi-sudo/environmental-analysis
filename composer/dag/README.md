@@ -19,8 +19,7 @@ Folder "composer/dags" contains all the python files and its utility module for 
 7. storage_util.py - A utility module to connect and insert in GCS.
 8. bq_utils.py - A utility module to connect, read and insert data to BigQuery.
 9. job_audit_utils.py - A utility module to insert job audit logs into the BigQuery.
-10. last_edit_date_utils.py - A utility module to get the latest date on which the data has been modified for ArcGIS, SOCRATA and AQS apis
-11. utils.py - A utility module which contains user defined functions which is required to execute ArcGIS_TO_GCP, SOCRATA_TO_GCP, AQS_TO_GCP and FTP_TO_GCP pipeline. 
+10.utils.py - A utility module which contains user defined functions which is required to execute FTP_TO_GCP pipeline. 
 
 
 ## How to add new data layer?

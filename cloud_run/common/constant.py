@@ -46,9 +46,9 @@ E2E_DATASET = "e2e_testing"
 # This repo is being used for e2e testing
 E2E_REPO_NAME = "dec"
 
-# GCP SECRET MANAGER INFO
-
-AQS_EMAIL = secrets_util.access_secrets(
-  secret_names=f"projects/{PROJECT_ID}/secrets/aqs_email/versions/latest")
-AQS_KEY = secrets_util.access_secrets(
-  secret_names=f"projects/{PROJECT_ID}/secrets/aqs_key/versions/latest")
+# # GCP SECRET MANAGER INFO
+#
+# AQS_EMAIL = secrets_util.access_secrets(
+#   secret_names=f"projects/{PROJECT_ID}/secrets/aqs_email/versions/latest")
+# AQS_KEY = secrets_util.access_secrets(
+#   secret_names=f"projects/{PROJECT_ID}/secrets/aqs_key/versions/latest")
