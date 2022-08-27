@@ -1,8 +1,8 @@
 # Data Pipeline FTP_GCS data to Bigquery table.
 
 ## This module used the two main services from GCP 
-## A) Cloud run: Used to read the data from GCS and transfer it to BigQuery ingestion dataset. 
-## B) Cloud composer: This dag code used to orchestrate cloud run code
+### A) Cloud run: Used to read the data from GCS and transfer it to BigQuery ingestion dataset. 
+### B) Cloud composer: This dag code used to orchestrate cloud run code
 
 
 # Cloud run code to transfer FTP data from GCS bucket to BigQuery.
