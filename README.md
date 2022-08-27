@@ -1,4 +1,8 @@
-# Data Pipeline FTP_GCS data to Bigquery table.
+# Data Pipeline for FTP_GCS data to Bigquery table.
+
+Tree view of the above-mentioned FTP to GCP data pipeline.
+
+<img width="1392" alt="Screenshot 2022-08-27 at 1 21 37 PM" src="https://user-images.githubusercontent.com/82666181/187021078-8c816a3a-79ec-442d-a07e-dbe4f55faf23.png">
 
 ## This module used the two main services from GCP 
 ### A) Cloud run: Used to read the data from GCS and transfer it to BigQuery ingestion dataset. 
@@ -46,7 +50,7 @@ To create the cloud run service from local system, Navigate to the environmental
 Please mention respective Project ID in below command.
 
 ```
-gcloud builds submit --region=us-east4 --config cloud_run/ftp_cloudbuild.yaml --substitutions=_LOCATION="us-east4",_PROJECT_ID="<PROJECT_ID>",_REPOSITORY="dec",_IMAGE="ftp",_CLOUD_RUN_SERVICE_NAME="ftp”,_COMPOSER_SERVICE_ACCOUNT="Respective  service account"
+gcloud builds submit --region=us-east4 --config cloud_run/ftp_cloudbuild.yaml --substitutions=_LOCATION="us-east4",_PROJECT_ID="<PROJECT_ID>",_REPOSITORY="dec",_IMAGE="ftp",_CLOUD_RUN_SERVICE_NAME="ftp”,_COMPOSER_SERVICE_ACCOUNT="Respective service account"
 
 ```
 

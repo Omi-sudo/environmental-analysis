@@ -8,7 +8,6 @@
 
 Files from FTP server will be stored in respective bucket having path [BUCKET_NAME]/.
 
-
 ## Overview
 
 As soon as the cloud run for ftp will trigger, it will fetch list of files from provided ftp bucket (Files will be picked from above mention bucket path) and start ingesting the data to BigQuery one by one.Also the audit logs will be saved in job audit table.
