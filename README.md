@@ -9,7 +9,7 @@
 
 ## Prerequisites
 - Service Account for Cloud Run: </br>
-  - Cloud Run uses the same service account use by Cloud Composer, for detailed permission please refer TDD.
+  - Cloud Run uses the same service account use by Cloud Composer.
 
 ## GCS file path<br>
 
@@ -70,7 +70,6 @@ Folder "composer/dags" contains all the python files and its utility module for 
 5.bq_utils.py - A utility module to connect, read and insert data to BigQuery.
 6.job_audit_utils.py - A utility module to insert job audit logs into the BigQuery.
 7.utils.py - A utility module which contains user defined functions which is required to execute FTP_TO_GCP pipeline. 
-
 
 ## How to add new data layer?
 
